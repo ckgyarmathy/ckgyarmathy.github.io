@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<!-- <meta http-equiv="refresh" content="0; url=http://cullen.gyarmathy.me/majortom/"> -->
+	<script type="text/javascript">
+		var host = "cullen.gyarmathy.me";
+		if((host == window.location.host) && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+	</script>
+	
+	<!-- <script type="text/javascript">location.replace("http://cullen.gyarmathy.me/majortom/")</script> -->
+
+	<body>
+		{% include header.html %}
+		{% include about.html %}
+		{% include page_content.html %}
+		{% include contact.html %}
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
+</html>

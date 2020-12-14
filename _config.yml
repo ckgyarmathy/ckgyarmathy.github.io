@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://cullen.gyarmathy.me
+title: Cullen Gyarmathy
+email: culleng10@gmail.com
+author: Cullen Gyarmathy
+description: > # "My name is Cullen Gyarmathy and I'm a sophomore Computer Science Major at Texas A&M University. I enjoy mountain biking, adrenaline, capturing moments in time with an old film camera, and the great outdoors. I have a passion for computers and their many applications in today's world!"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+#social:
+#  - title: file
+#    url: not_existent.pdf
+#  - title: linkedin
+#    url: https://www.linkedin.com/pub/cullen-gyarmathy/102/b47/a2a
+#  - title: instagram
+#    url: https://instagram.com/cullengyarmathy/

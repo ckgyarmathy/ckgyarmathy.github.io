@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	{% include head_photography.html %}
+
+	<script type="text/javascript">
+		var host = "cullen.gyarmathy.me";
+		if((host == window.location.host) && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+	</script>
+
+	<body>
+		{% include header_photography.html %}
+		<br></br>
+		<div class="single_column">
+
+			{% for img in page.img %}
+				<img class="photo" src="../../img/{{ page.file }}/{{ img.title }}.jpg"/>
+				<br></br>
+			{% endfor %}
+		</div>
+
+		{% include footer_photography.html %}
+
+	</body>
+</html>

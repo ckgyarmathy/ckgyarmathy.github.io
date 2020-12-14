@@ -1,0 +1,9 @@
+---
+layout: default
+img: george.jpg
+img_link: ../photography/camp-film
+category: Photography
+title: Camp Film
+description: |
+---
+  A series of photos taken during the summer of 2015 at Camp Travis.

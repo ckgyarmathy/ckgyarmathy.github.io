@@ -1,0 +1,9 @@
+---
+layout: default
+img: will.jpg
+img_link: ../photography/wills-test-roll
+category: Photography
+title: Will's Test Roll
+description: |
+---
+  A series of photos documenting Will's first roll of film.

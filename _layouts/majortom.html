@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<script type="text/javascript">
+		var host = "cullen.gyarmathy.me";
+		if((host == window.location.host) && (window.location.protocol != "https:"))
+			window.location.protocol = "https";
+	</script>
+
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("July 1, 2021 10:00:00").getTime();
+
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+
+		  // Get todays date and time
+		  var now = new Date().getTime();
+
+		  // Find the distance between now an the count down date
+		  var distance = countDownDate - now;
+
+		  // Time calculations for days, hours, minutes and seconds
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		  // Display the result in the element with id="demo"
+		  document.getElementById("demo").innerHTML = days + "&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;" + hours + "&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;"
+		  + minutes + "&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;" + seconds + "";
+
+		  // If the count down is finished, write some text 
+		  if (distance < 0) {
+		    clearInterval(x);
+		    document.getElementById("demo").innerHTML = "EXPIRED";
+		  }
+		}, 1000);
+	</script>
+
+	<link rel="stylesheet" href="../fonts/monk_typeface/monk_webkit/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="../fonts/monk_typeface/monk_webkit/stylesheet.css" type="text/css" charset="utf-8" />
+	<style type="text/css">body{ font-family: 'monkregular'; }</style>
+
+
+
+	</head>
+
+	<!-- <body background="../img/earth.jpg"> -->
+	<!-- <body background="../img/earth.jpg"> -->
+	<!-- <body style="background-image:url(../img/earth.jpg); background-position: center top; background-repeat: no-repeat;"> -->
+	<body style="background-image: url('../img/earth.jpg'); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover">
+
+	<h1 style="color:white; font-size: 8vmin; text-align: center; margin-top: 18vh;">m a j o r&nbsp;&nbsp;&nbsp;t o m</h1> <!-- 64px -->
+	<h1 id="demo" style="color:white; font-size:6vmin; text-align: center; margin-top:50vh;"></h1> <!-- 48px -->
+ 
+
+	</body>
+</html>

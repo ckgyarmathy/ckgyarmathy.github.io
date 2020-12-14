@@ -1,0 +1,9 @@
+---
+layout: default
+img: cliffside.jpg
+img_link: ../photography/grand-canyon-film
+category: Photography
+title: Grand Canyon Film
+description: |
+---
+  A series of photos documenting our trip to the Grand Canyon during Spring Break 2015.

@@ -1,0 +1,19 @@
+{
+  "name": "ckgyarmathy.github.io",
+  "version": "0.1.0",
+  "description": "a Jekyll-powered site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckgyarmathy/ckgyarmathy.github.io.git"
+  },
+  "author": "@ckgyarmathy",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.6.0",
+    "time-grunt": "~0.2.7",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-jekyll": "~0.4.1"
+  }
+}
